@@ -2,7 +2,7 @@
 
 Fugle Realtime Java SDK 是為了在Java方便地使用[富果](https://www.fugle.tw)提供的 [Fugle Realtime API](https://developer.fugle.tw/) 而成。
 
-**此SDK需自行實作HttpTool(發出GET請求與包裝回傳對象成ResponseObject)，也可自行實作HttpTool，快速使用範例請參照 [fugle-realtime-java-sdk-example-springboot-resttemplate](https://github.com/johnlin1066/fugle-realtime-java-sdk-example-springboot-resttemplate)。**
+**此SDK需自行實作HttpTool(發出GET請求與包裝回傳對象)，也可自行實作HttpTool，快速使用範例請參照 [fugle-realtime-java-sdk-example-springboot-resttemplate](https://github.com/johnlin1066/fugle-realtime-java-sdk-example-springboot-resttemplate)。**
 
 行情API金鑰申請 - [https://developer.fugle.tw/docs/key/](https://developer.fugle.tw/docs/key/)。
 
@@ -20,7 +20,7 @@ mvn install
 </dependency>
 ```
 
-## Implement HttpTool (責任為發出GET請求與包裝回傳對象成ResponseObject)
+## Implement HttpTool (責任為發出GET請求與包裝回傳對象)
 ```
 public interface HttpTool {
 	
